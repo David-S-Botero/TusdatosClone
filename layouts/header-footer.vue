@@ -1,29 +1,28 @@
 <template>
     <div class="bg-pink-500 min-h-screen">
+        <!-- Encabezado -->
         <header class="bg-transparent p-4">
-            <div class="container mx-auto flex justify-between items-center">
-                <!-- Logo y Nombre de la página -->
-                <div class="flex items-center">
-                    <img src="@/assets/logo.png" alt="Logo" class="w-10 h-10 mr-2" />
-                    <h1 class="text-white text-2xl font-semibold">Tusdatos.co</h1>
-                </div>
-
-                <!-- Opciones de navegación -->
-                <div class="flex items-center space-x-6">
-                    <!-- Router-Links con cambio de color de fondo en hover -->
-                    <router-link to="/" class="text-white hover:bg-pink-600 hover:text-white px-2 py-1 rounded">Home</router-link>
-                    <router-link to="/" class="text-white hover:bg-pink-600 hover:text-white px-2 py-1 rounded">Nosotros</router-link>
-                    <router-link to="/" class="text-white hover:bg-pink-600 hover:text-white px-2 py-1 rounded">Blog</router-link>
-                    <router-link to="/" class="text-white hover:bg-pink-600 hover:text-white px-2 py-1 rounded">Ecuador</router-link>
-                    <router-link to="/" class="text-white hover:bg-pink-600 hover:text-white px-2 py-1 rounded">Servicios</router-link>
-                </div>
-
-                <!-- Botones de inicio de sesión y contacto -->
-                <div class="flex items-center space-x-4">
-                    <button class="bg-transparent border border-white text-white px-3 py-1 rounded-md text-sm">LOGIN</button>
-                    <button class="bg-white text-pink-500 px-3 py-1 rounded-md font-bold text-sm">CONTÁCTANOS</button>
-                </div>
+        <div class="container mx-auto flex justify-between items-center">
+            <!-- Logo y Nombre de la página -->
+            <div class="flex items-center">
+            <img src="@/assets/logo.png" alt="Logo" class="w-10 h-10 mr-2" />
+            <h1 class="text-white text-2xl font-semibold">Tusdatos.co</h1>
             </div>
+            <!-- Opciones de navegación -->
+            <div class="hidden md:flex space-x-6">
+            <!-- Router-Links con cambio de color de fondo en hover -->
+            <router-link to="/" class="text-white hover:bg-pink-600 hover:text-white px-2 py-1 rounded">Home</router-link>
+            <router-link to="/" class="text-white hover:bg-pink-600 hover:text-white px-2 py-1 rounded">Nosotros</router-link>
+            <router-link to="/" class="text-white hover:bg-pink-600 hover:text-white px-2 py-1 rounded">Blog</router-link>
+            <router-link to="/" class="text-white hover:bg-pink-600 hover:text-white px-2 py-1 rounded">Ecuador</router-link>
+            <router-link to="/" class="text-white hover:bg-pink-600 hover:text-white px-2 py-1 rounded">Servicios</router-link>
+            </div>
+            <!-- Botones de inicio de sesión y contacto -->
+            <div class="flex items-center space-x-4">
+            <button class="bg-transparent border border-white text-white px-3 py-1 rounded-md text-sm">LOGIN</button>
+            <button class="bg-white text-pink-500 px-3 py-1 rounded-md font-bold text-sm">CONTÁCTANOS</button>
+            </div>
+        </div>
         </header>
     </div>
     
