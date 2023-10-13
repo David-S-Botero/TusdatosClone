@@ -161,7 +161,7 @@
                     </div>
                     <div class="col-span-1">
                         <iframe
-                        width="560"
+                        width="500"
                         height="315"
                         :src="`https://www.youtube.com/watch?v=Bd76kqrl-pc&embeds_referring_euri=https%3A%2F%2Fwww.tusdatos.co%2F&source_ve_path=Mjg2NTksMjg2NjY&feature=emb_logo&ab_channel=Tusdatosco`"
                         title="Video player"
@@ -169,6 +169,30 @@
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                         allowfullscreen
                         ></iframe>
+                    </div>
+                </div>
+                <div class="items-center self-center w-1/2 py-8">
+                    <img src="@/assets/tablet.png" alt="tablet">
+                </div>
+                <div class="bg-gray-600 bg-opacity-50 text-white font-bold uppercase text-[0.65rem] py-1 px-2 rounded-md mb-2 w-1/8 text-center">
+                    EVIDENCIAS
+                </div>
+                <div class="grid grid-cols-2 gap-4 max-w-5xl py-12 pt-0">
+                    <div class="col-span-1">
+                        <img src="@/assets/imSlider1.jpg" alt="imSlider1">
+                    </div>
+                    <div class="col-span-1 px-8">
+                        <h1 class="text-[1.5rem] text-left font-semibold">
+                            Tus consultas quedan con <br> soportes de la fuente viva
+                        </h1>
+                        <p class="py-3 text-gray-700 text-[1rem]">
+                            Deja atrás las bases de datos pre-cargadas para la realización de estudios de seguridad y debida diligencia. En Tusdatos.co las fuentes son consultadas en el momento que solicitas el estudio. <br>
+                            Capturamos evidencias de las consultas realizadas donde se demuestra la fecha y hora en la que se ejecutó.
+                            Pueden ser usadas como evidencia jurídica de la realización del proceso de debida diligencia.
+                        </p>
+                        <button class="uppercase bg-gray-700 text-white px-4 py-3 mt-4 rounded text-[0.7rem] font-bold w-1/2">
+                            compra un paquete hoy
+                        </button>
                     </div>
                 </div>
             </div>
@@ -189,7 +213,104 @@
             </div>
 
         </div>
+        <div class="felx flex-col bg-white w-full justify-center items-center self-center">
+            <div class="bg-gray-600 bg-opacity-50 text-white font-bold uppercase text-[0.65rem] py-1 px-2 rounded-md mb-2 w-1/8 text-center">
+                PLANES
+            </div>
+            <h1 class="bg-transparent text-gray-600  text-2xl px-2 py-3 text-center mb-4 self-center font-bold">Planes simples y completos</h1>
+            <p class="text-center text-[1.1rem] self-center text-gray-700">
+                Precios transparentes en pesos y sin cargos ocultos, para que te puedas beneficiar inmediatamente. Los planes son activados de manera manual y requerimos documentación soporte para su activación. Al realizar una compra aceptas nuestros términos y condiciones.
+            </p>
+            <div class="flex flex-col items-center justify-center">
+                <div class="max-w-screen-xl mx-auto">
+                    <div class="grid grid-cols-3 gap-0 max-w-4xl py-6">
+                        <!-- Columna 1 -->
+                        <div class="col-span-1 p-4 bg-white shadow-lg border-r-2 border-gray h-80">
+                            <!-- Contenido de la columna 1 -->
+                            <h1>PLAN Internet 100</h1>
+                            <h1>$450.000</h1>
+                            <p>VENCIMIENTO 24 MES</p>
+                            <img src="@/assets/ePayco.png" alt="ePayco">
+                        </div>
 
+                        <!-- Columna 2 -->
+                        <div class="col-span-1 p-4 bg-white shadow-lg  border-r-2 border-gray h-80">
+                            <!-- Contenido de la columna 2 -->
+                            <div class="bg-gray-600 bg-opacity-50 text-white font-bold uppercase text-[0.65rem] py-1 px-2 rounded-md mb-2 w-1/8 text-center">
+                                POPULAR
+                            </div>
+                            <h1>PLAN BLindado 400</h1>
+                            <br>
+                            <div>
+                                <hr>
+                                100 consultas
+                                <hr>
+                                Antecedentes
+                                <hr>
+                                Listas restrictivas
+                                <hr>
+                                Capturas de pantalla
+                                <hr>
+                                Reportes en PDF
+                                <hr>
+                                Soporte vía email
+                                <hr>
+                                Relacionados
+                                <hr>
+                                Noticias reputacionales
+                            </div>
+                            <h1>$1'060.000</h1>
+                            <p>VENCIMIENTO 24 MES</p>
+                            <img src="@/assets/ePayco.png" alt="ePayco">
+                        </div>
+
+                        <!-- Columna 3 -->
+                        <div class="col-span-1 p-4 bg-white shadow-lg border-r-2 border-gray h-80">
+                            <!-- Contenido de la columna 3 -->
+                            <h1>PLAN BLindado 1000</h1>
+                            <h1>$2'350.000</h1>
+                            <p>VENCIMIENTO 24 MES</p>
+                            <img src="@/assets/ePayco.png" alt="ePayco">
+                        </div>
+
+                    </div>
+                    <p class="max-w-4xl text-center py-5 text-gray-700 text-[1.1rem]">
+                        No dudes en contactarnos si tienes preguntas sobre nuestros planes. Estamos aquí para ayudarte. No olvides revisar nuestras preguntas frecuentes.    
+                    </p>
+
+                    <h1>📈✨ ¿Necesitas un mayor volumen de consultas?</h1>
+                    <p>
+                        No hay problema, contamos con planes corporativos de más de 100.000 consultas a precios altamente competitivos. ¡Impulsa tu negocio con nuestra oferta excepcional! 💼🌟
+                    </p>
+                    <button class="bg-white text-gray-800 px-4 py-0.5 rounded ml-4 font-bold text-[0.7rem]">CONTÁCTANOS</button>
+                    <div class="grid grid-cols-3 gap-0 max-w-4xl py-6">
+                        <!-- Columna 1 -->
+                        <div class="col-span-1 p-4 bg-white shadow-lg border-r-2 border-gray h-80">
+                            <!-- Contenido de la columna 1 -->
+                            <h1>+2'700.000</h1>
+                            <p>reportes entregados</p>
+                        </div>
+
+                        <!-- Columna 2 -->
+                        <div class="col-span-1 p-4 bg-white shadow-lg  border-r-2 border-gray h-80">
+                            <!-- Contenido de la columna 2 -->
+                            <h1>+5'500.000</h1>
+                            <p>horas ahorradas</p>
+                        </div>
+
+                        <!-- Columna 3 -->
+                        <div class="col-span-1 p-4 bg-white shadow-lg border-r-2 border-gray h-80">
+                            <!-- Contenido de la columna 3 -->
+                            <h1>+4190</h1>
+                            <p>usuarios felices</p>
+                            
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
         
         <div class="flex flex-col bg-gray-600 w-full p-4">
 
